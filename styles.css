@@ -175,3 +175,31 @@ main{
 #change-page button:hover {
     background-color: #98a7b3;
 }
+
+
+/* DETAIL SECTION */
+.gameDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .gameDetails img {
+    margin-top: 20px;
+  }
+  .gameDetails .price {
+    margin-top: 20px;
+    font-size: 15px;
+    color: #1a9fff;
+    font-weight: bold;
+  }
+  .gameDetails .genre {
+    font-size: 15px;
+    color: #7d93a5;
+    font-style: italic;
+  }
+  .gameDetails .description {
+    margin-top: 20px;
+    font-size: 17px;
+    color: white;
+  }
